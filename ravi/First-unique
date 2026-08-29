@@ -1,0 +1,14 @@
+const text="swiss";
+const counts={};
+let firstunique="";
+for(const char of text){
+    counts[char]=(counts[char] || 0)+1;
+}
+console.log(counts);
+for(const char of text){
+    if(counts[char]===1){
+     firstunique=char;
+     break;
+    }
+}
+console.log(firstunique);

@@ -1,8 +1,14 @@
-const text = 'programming';
-let duplicate = "";
-for (const char of text) {
-    if (!duplicate.includes(char)) {
- duplicate=duplicate+char;
+// const text = 'programming';
+// let duplicate = "";
+// for (const char of text) {
+//     if (!duplicate.includes(char)) {
+//  duplicate=duplicate+char;
+// }
+// }
+// console.log(duplicate);
+
+const Name="ravi";
+const names={};
+for(const char of Name){
+ console.log(char);
 }
-}
-console.log(duplicate);
