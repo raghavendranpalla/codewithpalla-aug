@@ -1,0 +1,6 @@
+const first = "Dormitory";
+const second = "Dirty room";
+
+const FirstName = first.toLocaleLowerCase().replaceAll(" ", "").split("").sort().join("");
+const secondName=second.toLocaleLowerCase().replaceAll(" ","").split("").sort().join("");
+console.log(FirstName===secondName);

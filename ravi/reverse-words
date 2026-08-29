@@ -1,0 +1,7 @@
+const sentence = "JavaScript is fun";
+const words = sentence.split(" ");
+const reversedWords = [];
+for(const char of words){
+    reversedWords.push(char.split("").reverse().join(""));
+}
+console.log(reversedWords.join(" "));
