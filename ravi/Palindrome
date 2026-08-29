@@ -1,0 +1,13 @@
+// Program 1
+const phrase=" Never odd or even";
+const palindrome=phrase.toLocaleLowerCase().replaceAll(" ","");
+const reversed=palindrome.split("").reverse().join("");
+console.log(reversed);
+console.log(palindrome===reversed);
+
+//Program 2
+const Name="Madam Madam";
+const palindrome=Name.toLocaleLowerCase().replaceAll(" ","");
+const reversed=palindrome.split("").reverse().join("");
+console.log(reversed);
+console.log(palindrome===reversed);

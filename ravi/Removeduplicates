@@ -1,0 +1,8 @@
+const text = 'programming';
+let duplicate = "";
+for (const char of text) {
+    if (!duplicate.includes(char)) {
+ duplicate=duplicate+char;
+}
+}
+console.log(duplicate);

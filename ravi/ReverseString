@@ -1,0 +1,22 @@
+//Program1
+const text='PlayWright';
+let reversed=" ";
+for(let i=text.length-1;i>=0;i--){
+ reversed =reversed+text[i]+ " ";
+}
+console.log(reversed);
+
+//Program2
+const Name="RaviKanakam";
+let reverse=" ";
+for(let i=Name.length-1;i>=0;i--){
+    reverse=reverse+ Name[i]+" ";
+}console.log(reverse);
+
+//Program3
+const Name="Darshith";
+let reverse="";
+for(let i=Name.length-1;i>=0;i--){
+    reverse+=Name[i];
+}
+console.log(reverse);

@@ -1,0 +1,8 @@
+const text="banana";
+const Count={};
+for(const char of text){
+ Count[char]=(Count[char]||0)+1;
+}
+console.log(Count);
+
+ \\ if i write Ravi ravi it prints counts R r seperate
